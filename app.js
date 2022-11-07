@@ -49,7 +49,7 @@ app.get("/posts/:postName", function(req, res) {
   let heading;
   let paragraph;
   posts.forEach(function(post) {
-    if (_.kebabCase(post.postTitle) === req.params.postName) {
+    if (post.postTitle === req.params.postName) {
       heading = post.postTitle;
       paragraph = post.postContent;
     }
