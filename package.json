@@ -1,17 +1,18 @@
 {
-  "name": "JournalingWebsite",
+  "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "It's a JournalingWebsite",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Suhas Jujjavarapu",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mongoose": "^6.7.2"
   }
 }
